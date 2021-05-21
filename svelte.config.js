@@ -1,20 +1,13 @@
-const sveltePreprocess = require('svelte-preprocess')
-const netlify = require('@sveltejs/adapter-netlify')
-const pkg = require('./package.json')
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+const adapter = require('@sveltejs/adapter-netlify');
+module.exports = {
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		adapter: netlify(),
-
+		adapter: adapter(), // currently the adapter does not take any options
 		target: '#svelte',
-
-		vite: {
-      ssr: {
-        noExternal: Object.keys(pkg.dependencies || {}),
-      },
-    },
+		prerender: {
+			crawl: true,
+			enabled: true,
+			force: true,
+			pages: ['*'],
+		},
 	}
 };
-
-export default config;
