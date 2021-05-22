@@ -12,8 +12,8 @@
 
 <section>
 	<h1>
-		Using <b>Playwright</b> to intercept traffic in between and do lots of stuff for <b>Developer</b> to exercise
-	</h1>
+		Using <b class="playwright">Playwright</b> to intercept traffic in between and do lots of stuff for <b>Developer</b> to exercise
+	</h1> 
 
 	<!-- <Counter /> -->
 </section>
@@ -30,6 +30,10 @@
 	h1 {
 		width: 100%;
 		text-align: left;
+	}
+	
+	.playwright {
+		color: #45ba4b
 	}
 
 	.welcome {
