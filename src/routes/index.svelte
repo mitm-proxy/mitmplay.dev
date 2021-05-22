@@ -12,7 +12,7 @@
 
 <section>
 	<h1>
-		Using <b class="playwright">Playwright</b> to intercept traffic in between and do lots of stuff for <b>Developer</b> to exercise
+		Using <b class="playwright">Playwright</b> to <i><b>intercept</b> traffic</i> in between and do lots of stuff <i>for <b>Developer</b> to exercise.</i>
 	</h1> 
 
 	<!-- <Counter /> -->
@@ -31,7 +31,7 @@
 		width: 100%;
 		text-align: left;
 	}
-	
+
 	.playwright {
 		color: #45ba4b
 	}
