@@ -33,7 +33,7 @@ const FeatureList = [
     description: (
       <>
         Leverage <b>Playwright</b> as Intercept & Automation Engine. 
-        <b>&nbsp;Svelte</b> as UI for Chrome Plugin, <i>Injected UI framework on Macros.</i> 
+        <b>&nbsp;Svelte</b> as UI framework for Chrome Plugin, <i>Injected UI on Macros.</i> 
       </>
     ),
   },
