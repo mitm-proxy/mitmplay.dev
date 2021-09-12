@@ -11,19 +11,19 @@ const FeatureList = [
     Svg: require('../../static/img/browser.svg').default,
     description: (
       <>
-        Mitmplay was design to be Developer Browser: 
-        <b>&nbsp;easy to use</b> on modify, inject, logs 
-        Browser traffic and <b> do automation at the same time.</b>
+        Mitmplay was design as <i>Developer-Browser</i>: 
+        <b>&nbsp;easy to use</b> on <b>modify, inject, logs</b> 
+        <i>&nbsp;Browser traffic</i> and <b> do automation at the same time.</b>
       </>
     ),
   },
   {
-    title: 'Focus on Developer needs',
+    title: 'Developer needs',
     Svg: require('../../static/img/program.svg').default,
     description: (
       <>
-        Easy craft Interception rules and rules will be auto-reload. 
-        Feedback can be seen on the Terminal, DevTools Console / Mitmplay Plugin.
+        Convension to craft <b>rules</b>, <b>Tags</b> & it'll be auto-reload and <b>macros</b>.
+        Feedback can be seen on Terminal, Console or Mitmplay Chrome-plugin.
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList = [
     description: (
       <>
         Leverage <b>Playwright</b> as Intercept & Automation Engine. 
-        <b>Svelte</b> to build Chrome Plugin, internal macros & <i>Injected UI in user defined macros.</i> 
+        <b>&nbsp;Svelte</b> as UI for Chrome Plugin, <i>Injected UI framework on Macros.</i> 
       </>
     ),
   },

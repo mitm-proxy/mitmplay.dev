@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'mitmplay',
-  tagline: 'MITM using Playwright',
+  tagline: 'MITM with Playwright+Svelte',
   url: 'https://mitmplay.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -103,7 +103,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Mitm-play Project`,
       },
       prism: {
         theme: lightCodeTheme,
