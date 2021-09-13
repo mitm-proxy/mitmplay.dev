@@ -22,12 +22,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/mitmplay/mitm-play',
+          editUrl: 'https://github.com/mitmplay/mitmplay.dev/edit/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/mitmplay/mitm-play',
+          editUrl: 'https://github.com/mitmplay/mitmplay.dev/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,7 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/mitmplay/mitm-play',
+            href: 'https://github.com/mitmplay/mitmplay.dev',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,7 +98,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/mitmplay/mitm-play',
+                href: 'https://github.com/mitmplay/mitmplay.dev',
               },
             ],
           },
