@@ -81,7 +81,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/mitmplay',
+                href: 'https://discord.gg/vDmYFcNpBP',
               },
               {
                 label: 'Twitter',
